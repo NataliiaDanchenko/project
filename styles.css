@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --hero-color: white;
+  --button-background: #2091f9;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 378px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("./img/header/header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 0 237px;
+}
+
+.header__logo-img {
+  width: 206px;
+  height: 78px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 80px 0;
+}
+
+.burger {
+  width: 26.67px;
+  height: 16px;
+}
+
+.header__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.header__title-subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  color: var(--hero-color);
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.header__subtitle {
+  width: 100%;
+  max-width: 265px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.button {
+  display: block;
+  background: #2091f9;
+  color: var(--hero-color);
+  text-align: center;
+  border-radius: 35px;
+}
+
+.header__button {
+  width: 236px;
+  height: 52px;
+  line-height: 52px;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
+}
+
+.features__title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+
+.features__subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.features__video {
+  padding: 50px 0;
+}

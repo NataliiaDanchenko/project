@@ -3,23 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>My site</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <ul class="header__nav-list">
+          <div class="header__logo">
+            <img
+              class="header__logo-img"
+              src="img/header/header-logo.png"
+              alt="logo"
+            />
+          </div>
+          <!--<ul class="header__nav-list">
             <li class="header__nav-item">Home</li>
             <li class="header__nav-item">Product</li>
             <li class="header__nav-item">Pricing</li>
             <li class="header__nav-item">About</li>
             <li class="header__nav-item">Contact</li>
-          </ul>
+          </ul>-->
+          <div class="burger">
+            <img src="img/header/header-burger.png" alt="" />
+          </div>
 
-          <div class="header__logo">Figma Land</div>
-
-          <div class="header__social-media">
+          <!---<div class="header__social-media">
             <img
               class="header__social-media-img"
               src="img/header/header-twitter.jpg"
@@ -35,25 +44,33 @@
               src="img/header/header-linkedin.jpg"
               alt="linkedin"
             />
-          </div>
+          </div>--->
         </nav>
-        <h1 class="header__title">The best products start with Figma</h1>
-        <h4 class="header__subtitle">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </h4>
-
-        <a class="header__button button">Try For Free</a>
+        <div class="header__hero">
+          <div class="header__title-subtitle">
+            <h2 class="header__title">The best products start with Figma</h1>
+            <h1 class="header__subtitle">
+              Most calendars are designed for teams. 
+              <!--Slate is designed for
+              freelancers-->
+            </h4>
+          </div>
+          <a class="header__button button">Try For Free</a>
+        </div>
       </div>
     </header>
 
     <main class="main">
       <section class="features">
-        <h2 class="features__title">Features</h2>
+        <div class="container">
+          <div class="features__wrapper">
+            <h2 class="features__title">Features</h2>
         <h4 class="features__subtitle">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
+          Most calendars are designed for teams. 
+          <!---Slate is designed for
+          freelancers--->
         </h4>
+        <video class="features__video" src=""></video>
         <ul class="features__list">
           <li class="features__item">
             <img
@@ -95,6 +112,8 @@
           </li>
         </ul>
         <video class="features__video" src=""></video>
+          </div>
+        </div>
       </section>
 
       <section class="fastest-way">
@@ -230,19 +249,23 @@
                 class="contacts__form-input"
                 type="text"
                 placeholder="Your Name"
+                required
+                name="client-name"
               />
               <input
                 class="contacts__form-input"
-                type="text"
+                type="email"
                 placeholder="Your Email"
+                required
+                name="client-email"
               />
               <textarea
                 class="contacts__form-textarea"
-                name=""
-                id=""
+                name="message"
                 placeholder="Your Message"
+                required
               ></textarea>
-              <button class="contacts__form-button button">Send</button>
+              <input type="submit" value="Send" class="contacts__form-button button">
             </form>
           </div>
         </div>
@@ -263,7 +286,9 @@
             <p class="contacts__email-text">willie.jennings@example.com</p>
           </div>
         </div>
-        <div class="contacts__map"></div>
+        <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.442665500285!2d12.477727500000002!3d41.9048418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6056a26c565f%3A0x4e8af29943c32882!2sFerrari%20Store%20Roma!5e0!3m2!1sen!2sua!4v1718749582776!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="contacts__social-media">
           <div
             class="contacts__social-media-icon contacts__social-media-icon--twitter"
