@@ -63,7 +63,7 @@
     </header>
 
     <main class="main">
-      <section class="features">
+      <section class="features section">
         <div class="container">
           <div class="features__wrapper">
             <h2 class="features__title">Features</h2>
@@ -121,7 +121,7 @@
         </div>
       </section>
 
-      <section class="fastest-way">
+      <section class="fastest-way section">
         <div class="container">
           <div class="fastest-way__content">
             <h2 class="fastest-way__title">Fastest way to organize</h2>
@@ -129,18 +129,30 @@
               Most calendars are designed for teams. Slate is designed for
               freelancers
             </h4>
-          </div>
-          <div class="fastest-way__image">
-            <img class="fastest-way__image-img" src="img/fastest-laptop.png" alt="laptop" />
+            <a href="#" class="faster-way__button button">Try For Free</a>
+            <div class="fastest-way__image">
+              <img class="fastest-way__image-img" src="img/fastest-laptop.png" alt="laptop" />
+            </div>
           </div>
         </section>
   
-        <section class="subscribe">
+        <section class="subscribe section">
           <div class="subscribe__content">
-            <h3 class="subscribe__title">At your fingertips</h3>
-            <h4 class="subscribe__subtitle">Lightning fast prototyping</h4>
-            <p class="subscribe__call-to-action">Subscribe to our Newsletter</p>
-            <p class="subscribe__offer">Available exclusively on Figmaland</p>
+            <div class="subscribe__title-block">
+              <p class="subscribe__supertitle">At your fingertips</p>
+              <h2 class="subscribe__title">Newsletter</h2>
+              <h4 class="subscribe__subtitle">Most calendars are designed for teams. 
+                Slate is designed for freelancers</h4>
+            </div>
+           <div class="subscribe__img">
+            <img src="img/subscribe-image.png" alt="man send letter">
+           </div>
+
+           <div class="subscribe__form-block">
+            <div class="subscribe__text">
+              <p class="subscribe__call-to-action">Subscribe to our Newsletter</p>
+              <p class="subscribe__offer">Available exclusively on Figmaland</p>
+            </div>
             <div class="subscribe__form">
               <form class="subscribe__form-element" action="">
                 <input
@@ -148,98 +160,125 @@
                   type="text"
                   placeholder="Your Email"
                 />
-                <button class="subscribe__form-button">Subscribe</button>
+                <button class="subscribe__form-button button">Subscribe</button>
               </form>
+           </div>
+            
             </div>
           </div>
         </div>
       </section>
 
-      <section class="partners">
-        <h2 class="partners__title">Partners</h2>
-        <h4 class="partners__subtitle">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </h4>
-        <div class="partners__items"></div>
-        <a class="button partners__button">Try For Free</a>
-      </section>
-
-      <section class="testimonials">
-        <h2 class="testimonials__title">Testimonials</h2>
-        <div class="testimonials__brand"></div>
-        <p class="testimonials__text"></p>
-        <div class="testimonials__client">
-          <img class="testimonials__client-img" src="" alt="client's photo" />
-          <p class="testimonials__client-author"></p>
-          <p class="testimonials__client-job-title"></p>
+      <section class="partners section">
+        <div class="container">
+          <div class="partners__content">
+            <h2 class="partners__title">Partners</h2>
+            <h4 class="partners__subtitle">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </h4>
+            <div class="partners__items">
+              <img src="img/section-partners/google.png" alt="google">
+              <img src="img/section-partners/amazon.png" alt="amazon">
+              <img src="img/section-partners/microsoft.png" alt="microsoft">
+            </div>
+            <a class="partners__button button">Try For Free</a>
+          </div>
+          
         </div>
-        <button class="button testimonials__button">More Testimonials</button>
       </section>
 
-      <section class="pricing">
-        <h2 class="pricing__title">Pricing</h2>
-        <h4 class="pricing__subtitle">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </h4>
-        <div class="pricing__items">
-          <article class="pricing__item">
-            <h3 class="pricing__item-title">FREE</h3>
-            <h5 class="pricing__item-description">
-              Organize across all apps by hand
-            </h5>
-            <div class="pricing__item-amount">
-              <h6 class="pricing__item-sum">0</h6>
-              <p class="pricing__item-period">$ per month</p>
+      <section class="testimonials section">
+        <div class="container">
+          <div class="testimonials__content">
+            <h2 class="testimonials__title">Testimonials</h2>
+            <div class="testimonials__brand">
+              <img src="img/testimonials-ibm.png" alt="IBM">
             </div>
-            <ul class="pricing__item-offers">
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-            </ul>
-            <button class="pricing__item-button button">Order Now</button>
-          </article>
+            <p class="testimonials__text">Most calendars are designed for teams. 
+              Slate is designed for freelancers who want a 
+              simple way to plan their schedule.</p>
+            <div class="testimonials__client">
+              <img class="testimonials__client-img" src="img/testimonials-client.png" alt="client's photo" />
+              <div>
+                <p class="testimonials__client-author">Organize across</p>
+                <p class="testimonials__client-job-title">Ui designer</p>
+              </div>
+              
+            </div>
+            <button class="button testimonials__button">More Testimonials</button>
+          </div>
+        </div>
+      </section>
 
-          <article class="pricing__item">
-            <h3 class="pricing__item-title">STANDARD</h3>
-            <h5 class="pricing__item-description">
-              Organize across all apps by hand
-            </h5>
-            <div class="pricing__item-amount">
-              <h6 class="pricing__item-sum">10</h6>
-              <p class="pricing__item-period">$ per month</p>
-            </div>
-            <ul class="pricing__item-offers">
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-            </ul>
-            <button class="pricing__item-button button">Order Now</button>
-          </article>
-
-          <article class="pricing__item">
-            <h3 class="pricing__item-title">BUSINESS</h3>
-            <h5 class="pricing__item-description">
-              Organize across all apps by hand
-            </h5>
-            <div class="pricing__item-amount">
-              <h6 class="pricing__item-sum">99</h6>
-              <p class="pricing__item-period">$ per month</p>
-            </div>
-            <ul class="pricing__item-offers">
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-              <li class="pricing__item-offer">Pricing Feature</li>
-            </ul>
-            <button class="button pricing__item-button">Order Now</button>
-          </article>
+      <section class="pricing section">
+        <div class="container">
+          <div class="pricing__content">
+            <h2 class="pricing__title">Pricing</h2>
+            <h4 class="pricing__subtitle">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </h4>
+            <div class="pricing__items">
+              <article class="pricing__item">
+                <h3 class="pricing__item-title">FREE</h3>
+                <h5 class="pricing__item-description">
+                  Organize across all apps by hand
+                </h5>
+                <div class="pricing__item-amount">
+                  <h6 class="pricing__item-sum">0</h6>
+                  <p class="pricing__item-period">$ per month</p>
+                </div>
+                <ul class="pricing__item-offers">
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                </ul>
+                <button class="pricing__item-button button">Order Now</button>
+              </article>
+    
+              <article class="pricing__item">
+                <h3 class="pricing__item-title">STANDARD</h3>
+                <h5 class="pricing__item-description">
+                  Organize across all apps by hand
+                </h5>
+                <div class="pricing__item-amount">
+                  <h6 class="pricing__item-sum">10</h6>
+                  <p class="pricing__item-period">$ per month</p>
+                </div>
+                <ul class="pricing__item-offers">
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                </ul>
+                <button class="pricing__item-button button">Order Now</button>
+              </article>
+    
+              <article class="pricing__item">
+                <h3 class="pricing__item-title">BUSINESS</h3>
+                <h5 class="pricing__item-description">
+                  Organize across all apps by hand
+                </h5>
+                <div class="pricing__item-amount">
+                  <h6 class="pricing__item-sum">99</h6>
+                  <p class="pricing__item-period">$ per month</p>
+                </div>
+                <ul class="pricing__item-offers">
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                  <li class="pricing__item-offer">Pricing Feature</li>
+                </ul>
+                <button class="button pricing__item-button">Order Now</button>
+              </article>
+          </div>
+        </div>
+        
         </div>
       </section>
 
