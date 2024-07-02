@@ -227,7 +227,11 @@
                 </h5>
                 <div class="pricing__item-amount">
                   <h6 class="pricing__item-sum">0</h6>
-                  <p class="pricing__item-period">$ per month</p>
+                  <div>
+                    <p class="pricing__item-current">$</p>
+                    <p class="pricing__item-period">Per Month</p>
+                  </div>
+                  
                 </div>
                 <ul class="pricing__item-offers">
                   <li class="pricing__item-offer">Pricing Feature</li>
@@ -239,14 +243,17 @@
                 <button class="pricing__item-button button">Order Now</button>
               </article>
     
-              <article class="pricing__item">
+              <article class=" pricing__item pricing__item--standart">
                 <h3 class="pricing__item-title">STANDARD</h3>
                 <h5 class="pricing__item-description">
                   Organize across all apps by hand
                 </h5>
                 <div class="pricing__item-amount">
                   <h6 class="pricing__item-sum">10</h6>
-                  <p class="pricing__item-period">$ per month</p>
+                  <div>
+                    <p class="pricing__item-current">$</p>
+                    <p class="pricing__item-period">Per Month</p>
+                  </div>
                 </div>
                 <ul class="pricing__item-offers">
                   <li class="pricing__item-offer">Pricing Feature</li>
@@ -255,17 +262,20 @@
                   <li class="pricing__item-offer">Pricing Feature</li>
                   <li class="pricing__item-offer">Pricing Feature</li>
                 </ul>
-                <button class="pricing__item-button button">Order Now</button>
+                <button class="pricing__item-button pricing__item-button--standart button">Order Now</button>
               </article>
     
-              <article class="pricing__item">
+              <article class="pricing__item section">
                 <h3 class="pricing__item-title">BUSINESS</h3>
                 <h5 class="pricing__item-description">
                   Organize across all apps by hand
                 </h5>
                 <div class="pricing__item-amount">
                   <h6 class="pricing__item-sum">99</h6>
-                  <p class="pricing__item-period">$ per month</p>
+                  <div>
+                    <p class="pricing__item-current">$</p>
+                    <p class="pricing__item-period">Per Month</p>
+                  </div>
                 </div>
                 <ul class="pricing__item-offers">
                   <li class="pricing__item-offer">Pricing Feature</li>
@@ -282,13 +292,46 @@
         </div>
       </section>
 
-      <section class="contacts">
-        <h2 class="contacts__title">Contact Us</h2>
+      <section class="contacts section">
+        <div class="container contacts__container">
+          <div class="content">
+            <h2 class="contacts__title">Contact Us</h2>
         <h4 class="contacts__subtitle">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h4>
+
+        <div class="contacts__social-media">
+          <div
+            class="contacts__social-media-icon contacts__social-media-icon--twitter"
+          ><img src="img/section-contacts/contacts-media-twitter.png" alt="twitter-icon"></div>
+          <div
+            class="contacts__social-media-icon contacts__social-media-icon--facebook"
+          ><img src="img/section-contacts//contact-media-facebook.png" alt="facebook-icon"></div>
+          <div
+            class="contacts__social-media-icon contacts__social-media-icon--linkedin"
+          ><img src="img/section-contacts/contacts-media-linkedin.png" alt="linkedin-icon"></div>
+        </div>
+
+        <div class="contacts__communication">
+          <div class="contacts__address">
+            <div class="contacts__address-icon"><img src="img/section-contacts/address.png" alt="address-icon"></div>
+            <p class="contacts__address-text">
+              6386 Spring St undefined Anchorage, Georgia 12473 United States
+            </p>
+          </div>
+          <div class="contacts__phone">
+            <div class="contacts__phone-icon"><img src="img/section-contacts/phone.png" alt="phone-icon"></div>
+            <p class="contacts__phone-text">(843) 555-0130</p>
+          </div>
+          <div class="contacts__email">
+            <div class="contacts__email-icon"><img src="img/section-contacts//email.png" alt="email-icon"></div>
+            <p class="contacts__email-text">willie.jennings@example.com</p>
+          </div>
+        </div>
+
         <div class="contacts__data">
+          <div class="contacts__data-title">Contact Us</div>
           <div class="contacts__form">
             <form class="contacts__form-element" action="">
               <input
@@ -319,24 +362,10 @@
             </form>
           </div>
         </div>
+          </div>
+        </div>    
 
-        <div class="contacts__communication">
-          <div class="contacts__address">
-            <div class="contacts__address-icon"></div>
-            <p class="contacts__address-text">
-              6386 Spring St undefined Anchorage, Georgia 12473 United States
-            </p>
-          </div>
-          <div class="contacts__phone">
-            <div class="contacts__phone-icon"></div>
-            <p class="contacts__phone-text">(843) 555-0130</p>
-          </div>
-          <div class="contacts__email">
-            <div class="contacts__email-icon"></div>
-            <p class="contacts__email-text">willie.jennings@example.com</p>
-          </div>
-        </div>
-        <div class="contacts__map">
+        <!--<div class="contacts__map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.442665500285!2d12.477727500000002!3d41.9048418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6056a26c565f%3A0x4e8af29943c32882!2sFerrari%20Store%20Roma!5e0!3m2!1sen!2sua!4v1718749582776!5m2!1sen!2sua"
             width="600"
@@ -346,26 +375,16 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
-        <div class="contacts__social-media">
-          <div
-            class="contacts__social-media-icon contacts__social-media-icon--twitter"
-          ></div>
-          <div
-            class="contacts__social-media-icon contacts__social-media-icon--facebook"
-          ></div>
-          <div
-            class="contacts__social-media-icon contacts__social-media-icon--linkedin"
-          ></div>
-        </div>
+        </div>-->
+        
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer section">
       <div class="footer__content">
         <div class="footer__pages">
           <h3 class="footer__pages-title">Pages</h3>
-          <ul class="footer__pages-list">
+          <ul class="footer__pages-list footer__list">
             <li class="footer__pages-item">Home</li>
             <li class="footer__pages-item">Product</li>
             <li class="footer__pages-item">Pricing</li>
@@ -373,9 +392,9 @@
             <li class="footer__pages-item">Contact</li>
           </ul>
         </div>
-        <div class="footer__timothy">
+        <div class="footer__timothy footer__pages">
           <h3 class="footer__timothy-title">Timothy</h3>
-          <ul class="footer__timothy-list">
+          <ul class="footer__timothy-list footer__list">
             <li class="footer__timothy-item">Eleanor Edwards</li>
             <li class="footer__timothy-item">Ted Robertson</li>
             <li class="footer__timothy-item">Annette Russell</li>
@@ -383,9 +402,9 @@
             <li class="footer__timothy-item">Gloria Richards</li>
           </ul>
         </div>
-        <div class="footer__jane-black">
+        <div class="footer__jane-black footer__pages">
           <h3 class="footer__jane-black-title">Jane Black</h3>
-          <ul class="footer__jane-black-list">
+          <ul class="footer__jane-black-list footer__list">
             <li class="footer__jane-black-item">Philip Jones</li>
             <li class="footer__jane-black-item">Product</li>
             <li class="footer__jane-black-item">Colleen Russell</li>
@@ -393,19 +412,25 @@
             <li class="footer__jane-black-item">Bruce Simmons</li>
           </ul>
         </div>
-        <div class="footer__contacts">
-          <div class="footer__contacts-address"></div>
-          <div class="footer__contacts-phone"></div>
+        <div class="footer__contacts footer__container">
+          <div class="footer__contacts-address">
+            <div class="footer__icon"><img src="img/footer/footer-address.png" alt="address-icon"></div>
+            <div class="footer__text">7480 Mockingbird Hill undefined</div>
+          </div>
+          <div class="footer__contacts-phone">
+            <div class="footer__icon"><img src="img/footer/footer-phone.png" alt="phone-icon"></div>
+            <div class="footer__text">(239) 555-0108</div>
+          </div>
           <div class="footer__contacts-social-media">
             <div
               class="footer__contacts-social-media-icon footer__contacts-social-media-icon--twitter"
-            ></div>
+            ><img src="img/footer//footer-twitter.png" alt="twitter-icon"></div>
             <div
               class="footer__contacts-social-media-icon footer__contacts-social-media-icon--facebook"
-            ></div>
+            ><img src="img/footer//footer-facebook.png" alt="facebook-icon"></div>
             <div
               class="footer__contacts-social-media-icon footer__contacts-social-media-icon--linkedin"
-            ></div>
+            ><img src="img/footer//footer-linkedin.png" alt="linkedin-icon"></div>
           </div>
         </div>
       </div>
