@@ -47,3 +47,19 @@ ul {
   text-align: center;
   border-radius: 35px;
 }
+
+.owerflow-hidden {
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 580px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 750px;
+  }
+}
