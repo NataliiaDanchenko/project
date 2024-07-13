@@ -63,3 +63,15 @@ ul {
     max-width: 750px;
   }
 }
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media (min-width: 1777px) {
+  .container {
+    max-width: 1440px;
+  }
+}

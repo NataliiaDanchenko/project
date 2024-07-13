@@ -57,3 +57,9 @@
   line-height: 28px;
   letter-spacing: 0.1px;
 }
+
+@media (min-width: 1000px) {
+  .testimonials__text {
+    width: 90%;
+  }
+}

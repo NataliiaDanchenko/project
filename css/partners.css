@@ -38,3 +38,36 @@
   font-size: 20px;
   font-weight: 700;
 }
+
+.partners__hidden {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .partners__hidden {
+    display: block;
+  }
+  .partners__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .partners__items img {
+    width: 25%;
+    height: 163px;
+  }
+}
+
+@media (min-width: 1777px) {
+  .partners__items {
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .partners__items img {
+    width: 273px;
+    height: 163px;
+  }
+}

@@ -8,7 +8,16 @@ btnSub.addEventListener("click", () => {
   header.classList.toggle("nav-visible");
 })
 
-// navLinks.addEventListener("click", () => {
-//   body.classList.remove("overflow-hidden");
-//   header.classList.remove("nav-visible");
-// })
+const fastestImg = document.querySelector('.fastest-way__image-img');
+
+//window.addEventListener('resize', changeSize);
+
+// function changeSize() {
+//   if (window.innerWidth >= 1000) {
+//     fastestImg.innerHTML = '<img src="img/fastest-laptop-big.png" alt="laptop">';
+//     console.log('kkkk')
+//   }
+// }
+// window.addEventListener('resize', (e) => {
+//   console.log(e);
+// });
