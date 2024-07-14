@@ -8,7 +8,7 @@ btnSub.addEventListener("click", () => {
   header.classList.toggle("nav-visible");
 })
 
-const fastestImg = document.querySelector('.fastest-way__image-img')
+
 
 //window.addEventListener('resize', changeSize);
 
