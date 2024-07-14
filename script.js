@@ -8,7 +8,7 @@ btnSub.addEventListener("click", () => {
   header.classList.toggle("nav-visible");
 })
 
-
+window.addEventListener('resize', changeSize);
 
 //window.addEventListener('resize', changeSize);
 
