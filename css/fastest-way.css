@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.fastest-way__image-img {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .fastest-way__text {
   display: flex;
   flex-direction: column;
@@ -37,11 +42,6 @@
   line-height: 60px;
   font-size: 20px;
   font-weight: 700;
-}
-
-.fastest-way__image-img {
-  width: 90%;
-  margin: 0 auto;
 }
 
 @media (min-width: 600px) {
@@ -80,5 +80,11 @@
   .fastest-way__image-img {
     width: 100%;
     max-width: 100vh;
+  }
+}
+
+@media (min-width: 1777px) {
+  .fastest-way__content {
+    max-width: 1243px;
   }
 }
