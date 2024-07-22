@@ -120,22 +120,27 @@
 
 @media (min-width: 1000px) {
   .pricing__content {
-      display: block;
-    }
-.pricing__title {
-  padding-bottom: 40px;
-}
-.pricing__subtitle {
-  margin: 0 auto;
-  max-width: 60%;
-}
+    display: block;
+  }
+
+  .pricing__title {
+    padding-bottom: 40px;
+  }
+
+  .pricing__subtitle {
+    margin: 0 auto;
+    max-width: 60%;
+  }
 
   .pricing__items {
     flex-direction: row;
+    justify-content: center;
   }
+
   .pricing__item--standart {
     margin: -60px 0;
   }
+
   .hidden {
     margin-bottom: 80px;
   }
